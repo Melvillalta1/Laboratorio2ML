@@ -1,0 +1,22 @@
+# Laboratorio No. 2 — Question Answering + RAG
+# Probado sobre Python 3.10+ (Google Colab)
+
+# --- Núcleo Transformers ---
+transformers>=4.40,<5.0
+torch>=2.2
+sentencepiece>=0.2.0
+accelerate>=0.30
+datasets>=2.19
+huggingface_hub>=0.23
+
+# --- Embeddings y base vectorial ---
+sentence-transformers>=3.0
+faiss-cpu>=1.8.0
+
+# --- Extracción de texto de PDF ---
+pymupdf>=1.24
+
+# --- Análisis y visualización ---
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
