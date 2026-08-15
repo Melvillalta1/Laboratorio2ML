@@ -1,0 +1,44 @@
+# ---------------------------------------------------------------
+# Renombrar este archivo a .gitignore al colocarlo en el repositorio
+# ---------------------------------------------------------------
+
+# Pesos de modelos y cachés de Hugging Face (NO versionar: la cátedra
+# lo prohíbe explícitamente y se descargan solos)
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+*.h5
+*.ckpt
+.cache/
+models/
+hf_cache/
+~/.cache/huggingface/
+
+# Índices FAISS y embeddings serializados
+*.faiss
+*.index
+*.npy
+embeddings/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
